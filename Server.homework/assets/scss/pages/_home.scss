@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    min-height: auto;
+    background-color:#343A40 ;
+
+   
+    nav{
+        width: 85%;
+        min-height: auto;
+
+        .button{
+           
+            .btn{
+                width: 115px;
+                height: 45px;
+                border: 2px solid green;
+                background-color: transparent;
+                color: white;
+                // margin-top: 20px;
+                border-radius: 0;
+               
+                
+            }
+            .Cbtn{
+                width: 95px;
+                height: 45px;
+                border: none;
+                background-color: rgb(123, 196, 14);
+                color: white;
+                margin-top: 20px;
+                border-radius: 0;
+            }
+        }
+        .navbar-link{
+         color: rgb(120, 120, 120);
+
+        }
+          
+        }
+        .collapseDiv{
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    main{
+        #customersSection{
+            width: 100%;
+           
+            background-image: url(/assets/images/hero_bg_2.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            min-height: 600px;
+            display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                .customerDiv{
+                    width: 100%;
+           
+                    
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    min-height: 600px;
+                    display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                       background-color: rgba($color: #000000, $alpha: 0.6);
+        
+                }
+
+
+            .text{
+                
+                width: 100%;
+                min-height: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .textDiv{
+                    min-height: 200px;
+
+                    h1{
+                        text-align: center;
+                        color: white;
+                        font-size: 80px;
+                        font-weight: 400;
+                    }
+                    p{
+                        color: white;
+                        font-size: 25px;
+                    }
+                    .btn1{
+                        text-align: center;
+                        background-color: green;
+                        color: white;
+                        width: 22%;
+                        height: 50px;
+                        border: none;
+                      
+                    }
+                    .Cbtn1{
+                        text-align: center;
+                        
+                        color: white;
+                        width: 22%;
+                        height: 50px;
+                        background: transparent;
+                        position: relative;
+                        z-index: 1;
+                        border: 1px solid white;
+                    }
+
+                }
+                
+                
+            }
+        }
+        #hostingSection{
+            display: flex;
+            justify-content: center;
+            background-color: #ffffffe8;
+            min-height: 700px;
+            .texthosting{
+               width: 100%;
+               text-align: center;
+               min-height: 250px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+                
+                h1{
+                   
+                    color: black;
+                    font-size: 30px;
+                    font-weight: 400;
+                    margin-top: 20px;
+                }
+            }
+            
+            }
+            .card{
+                width: 335px;
+                min-height: 340px;
+                background-color: white;
+                box-shadow: 0 0 28px rgba($color: #595959, $alpha: 1.0);
+                border: 0,5px solid rgb(185, 185, 185);
+                padding-top: 20px;
+                margin-bottom: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+               
+                i{
+                    
+                    font-size: 60px;
+                    color: green;
+                    text-align: center;
+                    
+                }
+                h1{
+                    font-size: 30px;
+                    margin: 20px;
+                }
+                button{
+                    // display: flex;
+                    // justify-content:center;
+                   
+                    border: 0;
+                    background-color: green;
+                    color: white;
+                    width: 140px;
+                    height: 50px;
+                    
+                }
+            }
+            #registerSection{
+                background-image: url(/assets/images/hero_bg_3.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                min-height: 500px;  
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .registerSection{
+                background-size: cover;
+               
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 100%;
+                min-height: 500px;  
+                background-color: rgba($color: #000000, $alpha: 0.5);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                .clientsDiv{
+                    h1{
+                        font-size: 70px;
+                        font-weight: 400;
+                        color: white;
+
+                    }
+                    h3{
+                        color: white;
+                        font-size: 30px;
+
+                    }
+                    button{
+                       background-color: #7CBD1E;
+                        color: white;
+                        border-radius: 0;
+                        width: 180px;
+                        height: 50px;
+                        border: none;
+                       
+                    }
+                   
+
+                }
+                }
+                
+                
+                    }
+                  
+                  
+                
+            
+            #chooseSection{
+                .div{
+                    width: 100%;
+                    min-height: 200px;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    h3{
+                        font-weight: 500;
+                    }
+
+                }
+                .chooseDiv{
+                    width: 100%;
+                    min-height: 200px;
+                    border: 0.3px solid gray;
+                    margin-bottom: 25px;
+                    .head{
+                        width: 100%;
+                        display: flex;
+                        align-items: center;
+                        font-weight: 500;
+                        gap: 30px;
+                        padding-left: 20px;
+                        min-height: 80px;
+                        margin-left: 20px;
+        
+                    
+                        i{
+                            font-size: 30px;
+                        }
+                       }
+                    p{
+                        margin-left: 20px;
+                    }
+
+
+                }
+               
+            }
+            #companySection{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                min-height: 700px;
+                .companyDiv{
+                    width: 100%;
+                    min-height: 400px;
+                    text-align: center;
+                }
+                h3{
+                    margin-bottom: 20px;
+                    padding-bottom: 20px;
+                }
+                img{
+                    border-radius: 50%;
+                    min-height: 120px;
+                    width: 120px;
+
+                }
+               
+            }
+            
+
+        }
+
+        footer{
+            width: 100%;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            .end{
+                width: 100%;
+                text-align: center;
+                p{
+                    color: white;
+                }
+            }
+        }

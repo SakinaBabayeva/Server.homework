@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: auto;
+  background-color: #343A40;
+}
+header nav {
+  width: 85%;
+  min-height: auto;
+}
+header nav .button .btn {
+  width: 115px;
+  height: 45px;
+  border: 2px solid green;
+  background-color: transparent;
+  color: white;
+  border-radius: 0;
+}
+header nav .button .Cbtn {
+  width: 95px;
+  height: 45px;
+  border: none;
+  background-color: rgb(123, 196, 14);
+  color: white;
+  margin-top: 20px;
+  border-radius: 0;
+}
+header nav .navbar-link {
+  color: rgb(120, 120, 120);
+}
+header .collapseDiv {
+  display: flex;
+  justify-content: center;
+}
+
+main #customersSection {
+  width: 100%;
+  background-image: url(/assets/images/hero_bg_2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+main #customersSection .customerDiv {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+main #customersSection .text {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #customersSection .text .textDiv {
+  min-height: 200px;
+}
+main #customersSection .text .textDiv h1 {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-weight: 400;
+}
+main #customersSection .text .textDiv p {
+  color: white;
+  font-size: 25px;
+}
+main #customersSection .text .textDiv .btn1 {
+  text-align: center;
+  background-color: green;
+  color: white;
+  width: 22%;
+  height: 50px;
+  border: none;
+}
+main #customersSection .text .textDiv .Cbtn1 {
+  text-align: center;
+  color: white;
+  width: 22%;
+  height: 50px;
+  background: transparent;
+  position: relative;
+  z-index: 1;
+  border: 1px solid white;
+}
+main #hostingSection {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.9098039216);
+  min-height: 700px;
+}
+main #hostingSection .texthosting {
+  width: 100%;
+  text-align: center;
+  min-height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #hostingSection .texthosting h1 {
+  color: black;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+main .card {
+  width: 335px;
+  min-height: 340px;
+  background-color: white;
+  box-shadow: 0 0 28px #595959;
+  border: 0, 5px solid rgb(185, 185, 185);
+  padding-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main .card i {
+  font-size: 60px;
+  color: green;
+  text-align: center;
+}
+main .card h1 {
+  font-size: 30px;
+  margin: 20px;
+}
+main .card button {
+  border: 0;
+  background-color: green;
+  color: white;
+  width: 140px;
+  height: 50px;
+}
+main #registerSection {
+  background-image: url(/assets/images/hero_bg_3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #registerSection .registerSection {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  min-height: 500px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main #registerSection .registerSection .clientsDiv h1 {
+  font-size: 70px;
+  font-weight: 400;
+  color: white;
+}
+main #registerSection .registerSection .clientsDiv h3 {
+  color: white;
+  font-size: 30px;
+}
+main #registerSection .registerSection .clientsDiv button {
+  background-color: #7CBD1E;
+  color: white;
+  border-radius: 0;
+  width: 180px;
+  height: 50px;
+  border: none;
+}
+main #chooseSection .div {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main #chooseSection .div h3 {
+  font-weight: 500;
+}
+main #chooseSection .chooseDiv {
+  width: 100%;
+  min-height: 200px;
+  border: 0.3px solid gray;
+  margin-bottom: 25px;
+}
+main #chooseSection .chooseDiv .head {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  gap: 30px;
+  padding-left: 20px;
+  min-height: 80px;
+  margin-left: 20px;
+}
+main #chooseSection .chooseDiv .head i {
+  font-size: 30px;
+}
+main #chooseSection .chooseDiv p {
+  margin-left: 20px;
+}
+main #companySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 700px;
+}
+main #companySection .companyDiv {
+  width: 100%;
+  min-height: 400px;
+  text-align: center;
+}
+main #companySection h3 {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+main #companySection img {
+  border-radius: 50%;
+  min-height: 120px;
+  width: 120px;
+}
+
+footer {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+footer .end {
+  width: 100%;
+  text-align: center;
+}
+footer .end p {
+  color: white;
+}
